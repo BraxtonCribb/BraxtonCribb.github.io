@@ -7,6 +7,13 @@ flex-wrap: wrap;
 h1 {
 color: white;
 text-align: center;
+width: 100%;
+display: block;
+}
+h1:hover{
+  color: maroon;
+  width: 100%;
+display: block;
 }
 a{
   text-decoration: none;
