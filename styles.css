@@ -1,6 +1,7 @@
 body {
 background: black;
 font-family: Arial, Helvetica, sans-serif;
+display: flex;
 }
 h1 {
 color: white;
@@ -13,8 +14,10 @@ a{
 .assign {
 display: flex;
 padding: 8px;
-margin: 10px;
+margin: 15px;
 background: skyblue;
+display: block;
+width: 20%;
 }
 .assign img {
 width: 300px;
