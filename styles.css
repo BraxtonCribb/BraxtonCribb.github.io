@@ -1,45 +1,4 @@
 body {
-  background: red;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-  width: 100%;
-  display: block;
-}
-
-h1:hover {
-  color: maroon;
-  width: 100%;
-  display: block;
-}
-
-a {
-  text-decoration: none;
-  color: midnightblue;
-}
-
-.assign img {
-  padding: 10px;
-  border: 2px solid midnightblue;
-}
-
-/* Corrected the typo in the selector (.assign) */
-.assign {
-  display: flex;
-  padding: 8px;
-  margin: 8px;
-  background: skyblue;
-  display: block;
-  width: 20%;
-  border-radius: 20px;
-  box-shadow: 8px 8px maroon; /* Corrected the typo in box-shadow */
-}
-body {
   background: blue;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -64,19 +23,19 @@ a {
   color: midnightblue;
 }
 
-.assign img {
-  padding: 10px;
-  border: 2px solid midnightblue;
-}
-
-/* Corrected the typo in the selector (.assign) */
 .assign {
   display: flex;
   padding: 8px;
   margin: 8px;
   background: skyblue;
-  display: block;
   width: 20%;
   border-radius: 20px;
-  box-shadow: 8px 8px maroon; /* Corrected the typo in box-shadow */
+  box-shadow: 8px 8px maroon;
+}
+
+.assign img {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  height: auto;    /* Maintain the aspect ratio */
+  padding: 10px;
+  border: 2px solid midnightblue;
 }
