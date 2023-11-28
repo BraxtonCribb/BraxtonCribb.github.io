@@ -1,37 +1,82 @@
 body {
-background: blue;
-font-family: Arial, Helvetica, sans-serif;
-display: flex;
-flex-wrap: wrap;
+  background: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 h1 {
-color: white;
-text-align: center;
-width: 100%;
-display: block;
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
-h1:hover{
+
+h1:hover {
   color: maroon;
   width: 100%;
-display: block;
+  display: block;
 }
+
 a {
- text-decoration: none; /* remove underlining on anchor tags */
- color: midnightblue; /* pick the color you want */
+  text-decoration: none;
+  color: midnightblue;
 }
+
 .assign img {
- padding: 10px; /* change this from margin to padding */
- border: 2px solid midnightblue; /* try dashed, dotted */
-}
-assign {
-display: flex;
-padding: 8px;
-margin: 8px;
-background: skyblue;
-display: block;
-width: 20%;
-border-radius: 20px;
-box-shawdow: 8px 8px maroon;
+  padding: 10px;
+  border: 2px solid midnightblue;
 }
 
+/* Corrected the typo in the selector (.assign) */
+.assign {
+  display: flex;
+  padding: 8px;
+  margin: 8px;
+  background: skyblue;
+  display: block;
+  width: 20%;
+  border-radius: 20px;
+  box-shadow: 8px 8px maroon; /* Corrected the typo in box-shadow */
+}
+body {
+  background: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+h1:hover {
+  color: maroon;
+  width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: midnightblue;
+}
+
+.assign img {
+  padding: 10px;
+  border: 2px solid midnightblue;
+}
+
+/* Corrected the typo in the selector (.assign) */
+.assign {
+  display: flex;
+  padding: 8px;
+  margin: 8px;
+  background: skyblue;
+  display: block;
+  width: 20%;
+  border-radius: 20px;
+  box-shadow: 8px 8px maroon; /* Corrected the typo in box-shadow */
+}
