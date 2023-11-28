@@ -1,28 +1,21 @@
 body {
-    background: skyblue;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+background: skyblue;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
 }
-
 h1 {
-    color: black;
-    text-align: center;
-    margin: 20px 0; /* Add some top and bottom margin for spacing */
+color: black;
+text-align: center;
 }
-
 .assign {
-    padding: 10px;
-    margin: 10px;
-    background: white;
-    width: 20%;
-    box-shadow: 8px 8px grey;
-    border-radius: 10px;
-    display: block;
+padding: 10px;
+margin: 10px;
+background: white;
+width: 20%;
+box-shadow: 8px 8px grey;
+border-radius: 10px;
+display: block;
 }
-
 .assign img {
-    width: 100%; /* Make the image responsive to its container */
-    border-radius: 8px; /* Rounded corners for the image */
-}
+width: 200px;
+padding: 10px;
