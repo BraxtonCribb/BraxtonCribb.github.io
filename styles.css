@@ -2,7 +2,7 @@ body {
     background: #f0f0f0; /* Light gray background */
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Minimum column width of 200px, auto-fill to create rows */
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
     gap: 20px; /* Gap between columns and rows */
     justify-content: center; /* Center columns horizontally */
     align-items: center; /* Center items vertically */
@@ -18,7 +18,7 @@ h1 {
 
 .assign {
     padding: 20px;
-    background: light blue; /* White background */
+    background: #fff; /* White background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
     border-radius: 10px;
     text-align: center; /* Center text */
