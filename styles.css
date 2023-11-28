@@ -1,23 +1,32 @@
 body {
-background: skyblue;
-font-family: Arial, Helvetica, sans-serif;
-display: flex;
-}
-h1 {
-color: black;
-text-align: center;
-}
-.assign {
-padding: 10px;
-margin: 10px;
-background: white;
-width: 20%;
-box-shadow: 8px 8px grey;
-border-radius: 10px;
-display: block;
-}
-.assign img {
-width: 200px;
-padding: 10px;
+    background: #f0f0f0; /* Light gray background */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 0;
+    padding: 0;
 }
 
+h1 {
+    color: #333; /* Dark gray text color */
+    text-align: center;
+    margin-top: 20px; /* Add some top margin */
+}
+
+.assign {
+    padding: 20px;
+    margin: 20px;
+    background: #fff; /* White background */
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    border-radius: 10px;
+    display: block;
+}
+
+.assign img {
+    width: 100%;
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Add additional styling as needed */
