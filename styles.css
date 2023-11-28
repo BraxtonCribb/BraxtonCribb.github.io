@@ -17,7 +17,7 @@ h1 {
 .assign {
     padding: 20px;
     margin: 20px;
-    background: #fff; /* White background */
+    background: red; /* White background */
     width: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
     border-radius: 10px;
